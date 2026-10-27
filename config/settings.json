@@ -1,0 +1,229 @@
+{
+  "sistema": {
+    "nome": "AgroZica - Inteligência Analítica e Gestão Rastreável de Insumos Rurais",
+    "versao": "2.6.0-AGROHACK",
+    "propriedade_modelo": "Fazenda Experimental AgroZica (500 ha - Ariquemes/RO)",
+    "area_total_ha": 500,
+    "moeda": "BRL",
+    "data_referencia_simulacao": "2026-10-27"
+  },
+  "parametros_regras": {
+    "dias_estoque_critico": 8,
+    "dias_estoque_atencao": 20,
+    "dias_alerta_validade": 45,
+    "z_score_anomalia": 2.0,
+    "crescimento_progressivo_pct": 30.0,
+    "variacao_preco_pct": 20.0,
+    "dias_capital_parado": 45,
+    "autonomia_excesso_dias": 180,
+    "min_historico_saidas": 3,
+    "janela_consumo_dias": 60,
+    "prazo_legal_embalagem_dias": 90
+  },
+  "regras_ativas": {
+    "RULE_ESTOQUE_CRITICO": true,
+    "RULE_VALIDADE_GIRO": true,
+    "RULE_ANOMALIA_RETIRADA": true,
+    "RULE_TENDENCIA_ALTA": true,
+    "RULE_VARIACAO_PRECO": true,
+    "RULE_CAPITAL_PARADO": true,
+    "RULE_EMBALAGENS_DEFENSIVOS": true
+  },
+  "conversao_unidades": {
+    "unidades_base_por_categoria": {
+      "Fertilizantes": "kg",
+      "Corretivos": "kg",
+      "Sementes": "kg",
+      "Defensivos Químicos": "L",
+      "Defensivos Biológicos": "L",
+      "Combustíveis e Lubrificantes": "L",
+      "Peças e Manutenção": "un",
+      "Irrigação": "m",
+      "EPIs": "un"
+    },
+    "fatores_para_base": {
+      "kg": { "unidade_base": "kg", "fator": 1.0 },
+      "g": { "unidade_base": "kg", "fator": 0.001 },
+      "saco": { "unidade_base": "kg", "fator": 50.0 },
+      "sc": { "unidade_base": "kg", "fator": 50.0 },
+      "saco_25kg": { "unidade_base": "kg", "fator": 25.0 },
+      "saco_40kg": { "unidade_base": "kg", "fator": 40.0 },
+      "bag": { "unidade_base": "kg", "fator": 1000.0 },
+      "ton": { "unidade_base": "kg", "fator": 1000.0 },
+      "t": { "unidade_base": "kg", "fator": 1000.0 },
+      "l": { "unidade_base": "L", "fator": 1.0 },
+      "litro": { "unidade_base": "L", "fator": 1.0 },
+      "litros": { "unidade_base": "L", "fator": 1.0 },
+      "ml": { "unidade_base": "L", "fator": 0.001 },
+      "galao": { "unidade_base": "L", "fator": 20.0 },
+      "galão": { "unidade_base": "L", "fator": 20.0 },
+      "bombona": { "unidade_base": "L", "fator": 20.0 },
+      "tambor": { "unidade_base": "L", "fator": 200.0 },
+      "un": { "unidade_base": "un", "fator": 1.0 },
+      "und": { "unidade_base": "un", "fator": 1.0 },
+      "unidade": { "unidade_base": "un", "fator": 1.0 },
+      "peca": { "unidade_base": "un", "fator": 1.0 },
+      "peça": { "unidade_base": "un", "fator": 1.0 },
+      "par": { "unidade_base": "un", "fator": 1.0 },
+      "cx": { "unidade_base": "un", "fator": 12.0 },
+      "m": { "unidade_base": "m", "fator": 1.0 },
+      "metro": { "unidade_base": "m", "fator": 1.0 },
+      "rolo_100m": { "unidade_base": "m", "fator": 100.0 }
+    },
+    "fatores_especificos_produto": {
+      "Semente Soja Intacta RR2": {
+        "saco": 40.0,
+        "sc": 40.0
+      },
+      "Semente Milho Híbrido VT PRO3": {
+        "saco": 20.0,
+        "sc": 20.0
+      }
+    }
+  },
+  "sinonimos_produtos": {
+    "Glifosato 480 SL": [
+      "glifosato",
+      "glifosato 480",
+      "glifosato 480 sl",
+      "glifosato sl",
+      "roundup glifosato",
+      "glifozato 480"
+    ],
+    "Ureia Agrícola 45% N": [
+      "ureia",
+      "uréia",
+      "ureia agricola",
+      "uréia agrícola",
+      "ureia 45%",
+      "ureia granulada"
+    ],
+    "NPK 04-14-08": [
+      "npk 04-14-08",
+      "npk 4-14-8",
+      "adubo npk 04 14 08",
+      "formulacao 04-14-08"
+    ],
+    "Cloreto de Potássio (KCl)": [
+      "kcl",
+      "cloreto de potassio",
+      "cloreto de potássio",
+      "adubo kcl 60%"
+    ],
+    "Calcário Dolomítico PRNT 85%": [
+      "calcario",
+      "calcário",
+      "calcario dolomitico",
+      "calcário dolomítico"
+    ],
+    "Óleo Diesel S10": [
+      "diesel s10",
+      "oleo diesel s10",
+      "óleo diesel s10",
+      "diesel",
+      "combustivel diesel s10"
+    ],
+    "Inoculante Bradyrhizobium Líquido": [
+      "inoculante soja",
+      "inoculante bradyrhizobium",
+      "bradyrhizobium liquido",
+      "inoculante biologico soja"
+    ],
+    "Trichoderma harzianum Biofungicida": [
+      "trichoderma",
+      "tricoderma",
+      "trichoderma harzianum",
+      "biofungicida trichoderma"
+    ],
+    "Semente Soja Intacta RR2": [
+      "semente soja",
+      "soja intacta",
+      "semente de soja intacta rr2",
+      "soja rr2"
+    ],
+    "Semente Milho Híbrido VT PRO3": [
+      "semente milho",
+      "milho hibrido",
+      "milho vt pro3",
+      "semente milho vt pro3"
+    ],
+    "Fungicida Fox Xpro": [
+      "fox xpro",
+      "fungicida fox",
+      "fox x-pro"
+    ],
+    "Inseticida Engeo Pleno S": [
+      "engeo pleno",
+      "inseticida engeo",
+      "engeo pleno s"
+    ],
+    "Óleo Lubrificante 15W40": [
+      "lubrificante 15w40",
+      "oleo 15w40",
+      "óleo 15w40 motor"
+    ],
+    "Rolamento Cônico Grade Aradora": [
+      "rolamento grade",
+      "rolamento conico grade",
+      "rolamento grade aradora"
+    ],
+    "Tubo Gotejador 16mm": [
+      "tubo gotejador",
+      "mangueira gotejamento 16mm",
+      "fita gotejadora 16mm"
+    ],
+    "Kit EPI Aplicação Defensivos": [
+      "kit epi",
+      "epi aplicacao",
+      "epi defensivo",
+      "conjunto epi agricola"
+    ],
+    "Sal Mineral Bovinos 80g Fósforo": [
+      "sal mineral 80",
+      "sal mineral bovinos",
+      "suplemento mineral 80g"
+    ],
+    "Arame Liso Ovalado ZN3": [
+      "arame liso",
+      "arame ovalado",
+      "arame cerca zn3"
+    ]
+  },
+  "mapeamento_colunas": {
+    "id_movimento": ["id", "id_movimento", "codigo", "cod_mov", "id_lancamento", "registro"],
+    "data_movimento": ["data", "data_movimento", "dt_mov", "dt_lancamento", "data_operacao", "date"],
+    "tipo_movimento": ["tipo", "tipo_movimento", "operacao", "natureza", "entrada_saida", "movimentacao"],
+    "produto": ["produto", "insumo", "item", "nome_produto", "descricao", "material"],
+    "categoria": ["categoria", "grupo", "classe", "tipo_insumo", "familia"],
+    "lote": ["lote", "num_lote", "codigo_lote", "part_number", "batch"],
+    "quantidade": ["quantidade", "qtd", "qtde", "volume", "peso", "valor_qtd"],
+    "unidade": ["unidade", "un", "und", "unid", "medida", "unidade_medida"],
+    "custo_unitario": ["custo_unitario", "preco_unitario", "valor_unitario", "custo", "preco", "vlr_unit"],
+    "data_validade": ["data_validade", "validade", "dt_validade", "vencimento", "dt_vencimento", "expiracao"],
+    "destino_centro_custo": ["destino_centro_custo", "destino", "centro_custo", "local", "talhao", "setor", "aplicacao"],
+    "responsavel": ["responsavel", "operador", "usuario", "solicitante", "almoxarife", "funcionario"],
+    "devolucao_embalagem": ["devolucao_embalagem", "status_embalagem", "logistica_reversa", "embalagem", "inpEV"]
+  },
+  "centros_custo_500ha": [
+    "Almoxarifado Central (Entrada)",
+    "Talhão 01 - Soja (150ha)",
+    "Talhão 02 - Milho Safrinha (120ha)",
+    "Pastos Rotacionados (30 Piquetes - 140ha)",
+    "Semiconfinamento (200 Bovinos)",
+    "Silos e Armazenagem",
+    "Manutenção de Cercas e Infraestrutura",
+    "Manutenção de Máquinas e Frota"
+  ],
+  "categorias_insumos": [
+    "Fertilizantes",
+    "Corretivos",
+    "Sementes",
+    "Defensivos Químicos",
+    "Defensivos Biológicos",
+    "Combustíveis e Lubrificantes",
+    "Peças e Manutenção",
+    "Irrigação",
+    "EPIs"
+  ]
+}
+

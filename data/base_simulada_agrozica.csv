@@ -1,0 +1,97 @@
+id_movimento,data_movimento,tipo_movimento,produto,categoria,lote,quantidade,unidade,custo_unitario,data_validade,destino_centro_custo,responsavel,devolucao_embalagem
+MOV-0001,2026-09-01,Entrada,Óleo Diesel S10,Combustíveis e Lubrificantes,DSL-2609A,15,tambor,1220.0,2027-09-01,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0002,2026-09-08,Saída,diesel s10,Combustíveis e Lubrificantes,DSL-2609A,650,L,6.1,2027-09-01,Manutenção de Máquinas e Frota,João Tratorista,Não Aplicável
+MOV-0003,2026-09-18,Saída,oleo diesel s10,Combustíveis e Lubrificantes,DSL-2609A,720,litros,6.1,2027-09-01,Talhão 01 - Soja (150ha),João Tratorista,Não Aplicável
+MOV-0004,2026-09-29,Saída,Óleo Diesel S10,Combustíveis e Lubrificantes,DSL-2609A,680,L,6.1,2027-09-01,Talhão 01 - Soja (150ha),Pedro Operador,Não Aplicável
+MOV-0005,2026-10-05,Entrada,Óleo Diesel S10,Combustíveis e Lubrificantes,DSL-2610B,1200,L,6.35,2027-10-05,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0006,2026-10-10,Saída,Diesel S10,Combustíveis e Lubrificantes,DSL-2609A,750,L,6.1,2027-09-01,Talhão 02 - Milho Safrinha (120ha),João Tratorista,Não Aplicável
+MOV-0007,2026-10-18,Saída,Óleo Diesel S10,Combustíveis e Lubrificantes,DSL-2610B,520,L,6.35,2027-10-05,Semiconfinamento (200 Bovinos),Pedro Operador,Não Aplicável
+MOV-0008,2026-10-25,Saída,Óleo Diesel S10,Combustíveis e Lubrificantes,DSL-2610B,540,L,6.35,2027-10-05,Talhão 01 - Soja (150ha),João Tratorista,Não Aplicável
+MOV-0009,2026-08-28,Entrada,Glifosato 480 SL,Defensivos Químicos,GLI-4401,35,galao,480.0,2027-08-28,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0010,2026-09-03,Saída,glifosato 480,Defensivos Químicos,GLI-4401,2,galao,480.0,2027-08-28,Talhão 01 - Soja (150ha),Carlos Agrônomo,Devolvida
+MOV-0011,2026-09-09,Saída,roundup glifosato,Defensivos Químicos,GLI-4401,45,L,24.0,2027-08-28,Talhão 01 - Soja (150ha),Carlos Agrônomo,Devolvida
+MOV-0012,2026-09-15,Saída,Glifosato 480 SL,Defensivos Químicos,GLI-4401,40,L,24.0,2027-08-28,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Prazo Vencido
+MOV-0013,2026-09-22,Saída,glifozato 480,Defensivos Químicos,GLI-4401,50,L,24.0,2027-08-28,Talhão 02 - Milho Safrinha (120ha),Pedro Operador,Pendente
+MOV-0014,2026-09-30,Saída,Glifosato 480 SL,Defensivos Químicos,GLI-4401,2,galão,480.0,2027-08-28,Pastos Rotacionados (30 Piquetes - 140ha),Carlos Agrônomo,Devolvida
+MOV-0015,2026-10-07,Saída,Glifosato 480 SL,Defensivos Químicos,GLI-4401,42,L,24.0,2027-08-28,Talhão 01 - Soja (150ha),Carlos Agrônomo,Pendente
+MOV-0016,2026-10-14,Saída,Glifosato 480 SL,Defensivos Químicos,GLI-4401,48,L,24.0,2027-08-28,Talhão 01 - Soja (150ha),Carlos Agrônomo,Pendente
+MOV-0017,2026-10-19,Saída,Glifosato 480 SL,Defensivos Químicos,GLI-4401,44,L,24.0,2027-08-28,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Devolvida
+MOV-0018,2026-10-24,Saída,Glifosato 480 SL,Defensivos Químicos,GLI-4401,260,L,24.0,2027-08-28,Manutenção de Cercas e Infraestrutura,Pedro Operador,Pendente
+MOV-0019,2026-09-02,Entrada,Inoculante Bradyrhizobium Líquido,Defensivos Biológicos,BIO-2026A,120,L,85.0,2026-11-12,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0020,2026-09-12,Saída,inoculante soja,Defensivos Biológicos,BIO-2026A,12,L,85.0,2026-11-12,Talhão 01 - Soja (150ha),Carlos Agrônomo,Devolvida
+MOV-0021,2026-09-25,Saída,bradyrhizobium liquido,Defensivos Biológicos,BIO-2026A,14,L,85.0,2026-11-12,Talhão 01 - Soja (150ha),Carlos Agrônomo,Devolvida
+MOV-0022,2026-10-08,Saída,Inoculante Bradyrhizobium Líquido,Defensivos Biológicos,BIO-2026A,10,L,85.0,2026-11-12,Talhão 01 - Soja (150ha),Carlos Agrônomo,Devolvida
+MOV-0023,2026-10-19,Saída,Inoculante Bradyrhizobium Líquido,Defensivos Biológicos,BIO-2026A,12,L,85.0,2026-11-12,Talhão 01 - Soja (150ha),Carlos Agrônomo,Pendente
+MOV-0024,2026-10-20,Entrada,Inoculante Bradyrhizobium Líquido,Defensivos Biológicos,BIO-2026B,40,L,88.0,2027-04-30,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0025,2026-09-05,Entrada,Trichoderma harzianum Biofungicida,Defensivos Biológicos,TRI-88,60,L,135.0,2026-11-28,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0026,2026-09-16,Saída,tricoderma,Defensivos Biológicos,TRI-88,5000,ml,0.135,2026-11-28,Talhão 01 - Soja (150ha),Carlos Agrônomo,Devolvida
+MOV-0027,2026-10-01,Saída,Trichoderma harzianum Biofungicida,Defensivos Biológicos,TRI-88,6,L,135.0,2026-11-28,Talhão 01 - Soja (150ha),Carlos Agrônomo,Devolvida
+MOV-0028,2026-10-17,Saída,biofungicida trichoderma,Defensivos Biológicos,TRI-88,5,L,135.0,2026-11-28,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Pendente
+MOV-0029,2026-09-01,Entrada,Ureia Agrícola 45% N,Fertilizantes,URE-101,6,ton,3400.0,2028-03-01,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0030,2026-09-10,Saída,uréia,Fertilizantes,URE-101,25,saco,170.0,2028-03-01,Pastos Rotacionados (30 Piquetes - 140ha),Antônio Campeiro,Não Aplicável
+MOV-0031,2026-09-21,Saída,ureia agricola,Fertilizantes,URE-101,1300,kg,3.4,2028-03-01,Talhão 02 - Milho Safrinha (120ha),João Tratorista,Não Aplicável
+MOV-0032,2026-10-04,Saída,Ureia Agrícola 45% N,Fertilizantes,URE-101,28,saco,170.0,2028-03-01,Pastos Rotacionados (30 Piquetes - 140ha),Antônio Campeiro,Não Aplicável
+MOV-0033,2026-10-16,Saída,Uréia Agrícola,Fertilizantes,URE-101,1000,kg,3.4,2028-03-01,Talhão 02 - Milho Safrinha (120ha),João Tratorista,Não Aplicável
+MOV-0034,2026-08-30,Entrada,Sal Mineral Bovinos 80g Fósforo,Fertilizantes,SAL-200,120,saco,145.0,2027-12-30,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0035,2026-09-04,Saída,sal mineral 80,Fertilizantes,SAL-200,6,saco,145.0,2027-12-30,Pastos Rotacionados (30 Piquetes - 140ha),Antônio Campeiro,Não Aplicável
+MOV-0036,2026-09-14,Saída,Sal Mineral Bovinos 80g Fósforo,Fertilizantes,SAL-200,7,saco,145.0,2027-12-30,Semiconfinamento (200 Bovinos),Antônio Campeiro,Não Aplicável
+MOV-0037,2026-09-24,Saída,sal mineral bovinos,Fertilizantes,SAL-200,8,saco,145.0,2027-12-30,Semiconfinamento (200 Bovinos),Antônio Campeiro,Não Aplicável
+MOV-0038,2026-10-03,Saída,Sal Mineral Bovinos 80g Fósforo,Fertilizantes,SAL-200,11,saco,145.0,2027-12-30,Semiconfinamento (200 Bovinos),Antônio Campeiro,Não Aplicável
+MOV-0039,2026-10-13,Saída,Sal Mineral Bovinos 80g Fósforo,Fertilizantes,SAL-200,13,saco,145.0,2027-12-30,Pastos Rotacionados (30 Piquetes - 140ha),Antônio Campeiro,Não Aplicável
+MOV-0040,2026-10-23,Saída,Sal Mineral Bovinos 80g Fósforo,Fertilizantes,SAL-200,16,saco,145.0,2027-12-30,Semiconfinamento (200 Bovinos),Antônio Campeiro,Não Aplicável
+MOV-0041,2026-08-15,Entrada,Cloreto de Potássio (KCl),Fertilizantes,KCL-01,4000,kg,2.8,2028-08-15,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0042,2026-09-10,Entrada,kcl,Fertilizantes,KCL-02,3000,kg,2.9,2028-09-10,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0043,2026-09-18,Saída,cloreto de potassio,Fertilizantes,KCL-01,1500,kg,2.8,2028-08-15,Talhão 01 - Soja (150ha),João Tratorista,Não Aplicável
+MOV-0044,2026-10-02,Saída,Cloreto de Potássio (KCl),Fertilizantes,KCL-01,1200,kg,,2028-08-15,Talhão 01 - Soja (150ha),João Tratorista,Não Aplicável
+MOV-0045,2026-10-15,Entrada,Cloreto de Potássio (KCl),Fertilizantes,KCL-03,4000,kg,3.85,2028-10-15,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0046,2026-10-21,Saída,Cloreto de Potássio (KCl),Fertilizantes,KCL-02,1400,kg,2.9,2028-09-10,Talhão 02 - Milho Safrinha (120ha),João Tratorista,Não Aplicável
+MOV-0047,2026-07-10,Entrada,Tubo Gotejador 16mm,Irrigação,IRR-701,30,rolo_100m,420.0,,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0048,2026-08-05,Saída,mangueira gotejamento 16mm,Irrigação,IRR-701,200,m,4.2,,Manutenção de Cercas e Infraestrutura,Pedro Operador,Não Aplicável
+MOV-0049,2026-07-20,Entrada,Calcário Dolomítico PRNT 85%,Corretivos,CAL-500,80,ton,260.0,,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0050,2026-08-12,Saída,calcario dolomitico,Corretivos,CAL-500,25,ton,260.0,,Talhão 01 - Soja (150ha),João Tratorista,Não Aplicável
+MOV-0051,2026-08-25,Saída,calcário,Corretivos,CAL-500,15000,kg,0.26,,Pastos Rotacionados (30 Piquetes - 140ha),João Tratorista,Não Aplicável
+MOV-0052,2026-08-20,Entrada,Fungicida Fox Xpro,Defensivos Químicos,FOX-11,60,L,240.0,2027-06-30,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0053,2026-09-07,Saída,fox xpro,Defensivos Químicos,FOX-11,15,L,240.0,2027-06-30,Talhão 01 - Soja (150ha),Carlos Agrônomo,Prazo Vencido
+MOV-0054,2026-09-23,Saída,Fungicida Fox Xpro,Defensivos Químicos,FOX-11,15,L,240.0,2027-06-30,Talhão 01 - Soja (150ha),Carlos Agrônomo,Devolvida
+MOV-0055,2026-10-11,Entrada,Fungicida Fox Xpro,Defensivos Químicos,FOX-12,40,L,310.0,2027-11-30,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0056,2026-10-20,Saída,fungicida fox,Defensivos Químicos,FOX-11,12,L,240.0,2027-06-30,Talhão 01 - Soja (150ha),Carlos Agrônomo,Pendente
+MOV-0057,2026-09-03,Entrada,Inseticida Engeo Pleno S,Defensivos Químicos,ENG-301,50,L,175.0,2027-05-15,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0058,2026-09-14,Saída,engeo pleno,Defensivos Químicos,ENG-301,10,L,175.0,2027-05-15,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Devolvida
+MOV-0059,2026-10-01,Saída,Inseticida Engeo Pleno S,Defensivos Químicos,ENG-301,12,L,175.0,,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Pendente
+MOV-0060,2026-10-18,Saída,inseticida engeo,Defensivos Químicos,ENG-301,11,L,175.0,2027-05-15,Silos e Armazenagem,Carlos Agrônomo,Pendente
+MOV-0061,2026-09-05,Entrada,Semente Soja Intacta RR2,Sementes,SOJ-2026,220,saco_40kg,460.0,2027-03-30,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0062,2026-09-20,Saída,semente soja,Sementes,SOJ-2026,60,saco_40kg,460.0,2027-03-30,Talhão 01 - Soja (150ha),Carlos Agrônomo,Não Aplicável
+MOV-0063,2026-10-05,Saída,soja intacta,Sementes,SOJ-2026,2400,kg,11.5,2027-03-30,Talhão 01 - Soja (150ha),Carlos Agrônomo,Não Aplicável
+MOV-0064,2026-10-19,Saída,Semente Soja Intacta RR2,Sementes,SOJ-2026,55,saco_40kg,460.0,2027-03-30,Talhão 01 - Soja (150ha),Carlos Agrônomo,Não Aplicável
+MOV-0065,2026-09-08,Entrada,Semente Milho Híbrido VT PRO3,Sementes,MIL-880,150,saco,780.0,2027-05-01,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0066,2026-09-25,Saída,semente milho,Sementes,MIL-880,40,saco,780.0,2027-05-01,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Não Aplicável
+MOV-0067,2026-10-09,Saída,milho vt pro3,Sementes,MIL-880,35,saco,780.0,2027-05-01,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Não Aplicável
+MOV-0068,2026-10-22,Saída,Semente Milho Híbrido VT PRO3,Sementes,MIL-880,38,saco,780.0,2027-05-01,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Não Aplicável
+MOV-0069,2026-09-01,Entrada,NPK 04-14-08,Fertilizantes,NPK-98-OK,5000,kg,3.1,2028-09-01,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0070,2026-09-12,Entrada,npk 4-14-8,Fertilizantes,NPK-99-ERR,10,saco,155.0,2028-09-12,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0071,2026-09-19,Saída,NPK 04-14-08,Fertilizantes,NPK-98-OK,1500,kg,3.1,2028-09-01,Talhão 02 - Milho Safrinha (120ha),João Tratorista,Não Aplicável
+MOV-0072,2026-10-06,Saída,adubo npk 04 14 08,Fertilizantes,NPK-99-ERR,650,kg,3.1,2028-09-12,Pastos Rotacionados (30 Piquetes - 140ha),João Tratorista,Não Aplicável
+MOV-0073,2026-10-18,Saída,NPK 04-14-08,Fertilizantes,NPK-98-OK,1200,kg,3.1,2028-09-01,Talhão 02 - Milho Safrinha (120ha),João Tratorista,Não Aplicável
+MOV-0074,2026-09-02,Entrada,Óleo Lubrificante 15W40,Combustíveis e Lubrificantes,LUB-401,5,bombona,520.0,2029-09-02,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0075,2026-09-15,Saída,lubrificante 15w40,Combustíveis e Lubrificantes,LUB-401,20,L,26.0,2029-09-02,Manutenção de Máquinas e Frota,Pedro Operador,Não Aplicável
+MOV-0076,2026-09-28,Saída,oleo 15w40,Combustíveis e Lubrificantes,LUB-401,18,L,26.0,2029-09-02,Manutenção de Máquinas e Frota,Pedro Operador,Não Aplicável
+MOV-0077,2026-10-12,Entrada,Óleo Lubrificante 15W40,Combustíveis e Lubrificantes,LUB-402,40,L,,2029-10-12,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0078,2026-10-21,Saída,Óleo Lubrificante 15W40,Combustíveis e Lubrificantes,LUB-401,22,L,26.0,2029-09-02,Manutenção de Máquinas e Frota,Pedro Operador,Não Aplicável
+MOV-0079,2026-09-10,Entrada,Rolamento Cônico Grade Aradora,Peças e Manutenção,PEC-901,12,un,290.0,,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0080,2026-09-27,Saída,rolamento grade,Peças e Manutenção,PEC-901,4,peca,290.0,,Manutenção de Máquinas e Frota,Pedro Operador,Não Aplicável
+MOV-0081,2026-10-24,Saída,Rolamento Cônico Grade Aradora,Peças e Manutenção,PEC-901,6,un,290.0,,Manutenção de Máquinas e Frota,Pedro Operador,Não Aplicável
+MOV-0082,2026-09-05,Entrada,Kit EPI Aplicação Defensivos,EPIs,EPI-2026,15,un,185.0,2028-09-05,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0083,2026-09-22,Saída,kit epi,EPIs,EPI-2026,5,unidade,185.0,2028-09-05,Talhão 01 - Soja (150ha),Carlos Agrônomo,Não Aplicável
+MOV-0084,2026-10-16,Saída,epi defensivo,EPIs,EPI-2026,4,un,185.0,2028-09-05,Talhão 02 - Milho Safrinha (120ha),Carlos Agrônomo,Não Aplicável
+MOV-0085,2026-09-01,Entrada,Arame Liso Ovalado ZN3,Peças e Manutenção,ARA-55,20,un,640.0,,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0086,2026-09-11,Saída,arame liso,Peças e Manutenção,ARA-55,4,un,640.0,,Manutenção de Cercas e Infraestrutura,Antônio Campeiro,Não Aplicável
+MOV-0087,2026-09-26,Saída,arame ovalado,Peças e Manutenção,ARA-55,3,un,640.0,,Pastos Rotacionados (30 Piquetes - 140ha),Antônio Campeiro,Não Aplicável
+MOV-0088,2026-10-08,Saída,Arame Liso Ovalado ZN3,Peças e Manutenção,ARA-55,4,un,640.0,,Manutenção de Cercas e Infraestrutura,Antônio Campeiro,Não Aplicável
+MOV-0089,2026-10-20,Saída,Arame Liso Ovalado ZN3,Peças e Manutenção,ARA-55,3,un,640.0,,Pastos Rotacionados (30 Piquetes - 140ha),Antônio Campeiro,Não Aplicável
+MOV-0090,2026-09-15,Entrada,Glifosato 480 SL,Defensivos Químicos,GLI-4402,200,L,24.5,2027-09-15,Almoxarifado Central (Entrada),Marcos Souza,Não Aplicável
+MOV-0091,2026-09-29,Saída,Inseticida Engeo Pleno S,Defensivos Químicos,ENG-301,8,L,175.0,2027-05-15,Silos e Armazenagem,Carlos Agrônomo,Prazo Vencido
+MOV-0092,2026-10-03,Saída,Óleo Diesel S10,Combustíveis e Lubrificantes,DSL-2609A,120,L,6.1,2027-09-01,Silos e Armazenagem,Pedro Operador,Não Aplicável
+MOV-0093,2026-10-11,Saída,Ureia Agrícola 45% N,Fertilizantes,URE-101,400,kg,3.4,2028-03-01,Semiconfinamento (200 Bovinos),Antônio Campeiro,Não Aplicável
+MOV-0094,2026-10-14,Saída,NPK 04-14-08,Fertilizantes,NPK-98-OK,18,saco,155.0,2028-09-01,Talhão 01 - Soja (150ha),João Tratorista,Não Aplicável
+MOV-0095,2026-10-22,Saída,Fungicida Fox Xpro,Defensivos Químicos,FOX-12,14,L,310.0,2027-11-30,Talhão 01 - Soja (150ha),Carlos Agrônomo,Pendente
+MOV-0096,2026-10-25,Saída,Cloreto de Potássio (KCl),Fertilizantes,KCL-03,30,saco,192.5,2028-10-15,Talhão 02 - Milho Safrinha (120ha),João Tratorista,Não Aplicável
